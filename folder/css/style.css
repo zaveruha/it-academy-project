@@ -2,3 +2,30 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
+.container{
+    max-width: 1170px;
+    min-width: 320px;
+    margin: 0  auto;
+    height: 150px;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-bold{
+    font-family: 'Montserrat Bold', sans-serif;
+}
+
+.montserrat-light{
+    font-family: 'Montserrat Light', sans-serif;
+}
+
+header{
+    margin-bottom: 32px;
+}
+
+.page-header {
+    background-color: #232323;
+
+}
