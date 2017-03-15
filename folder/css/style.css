@@ -1,9 +1,10 @@
 @import url(http://allfont.ru/allfont.css?fonts=montserrat-light);
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 
 .container{
-    max-width: 1170px;
+    max-width: 1200px;
+    padding: 0 15px;
     min-width: 320px;
     margin: 0  auto;
     height: 150px;
