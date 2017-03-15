@@ -1,0 +1,88 @@
+header{
+    margin-bottom: 32px;
+}
+
+.page-header {
+    background-color: #232323;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b2b2b;
+    font-size: 14px;
+    margin-bottom: 29px;
+}
+
+.header-phone a, .header-user a{
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+.header-phone, .header-user{
+    padding-left: 14px;
+    padding-top:7px;
+    padding-right:17px;
+    padding-bottom: 12px;
+}
+
+
+.register{
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.header-logo {
+    display: block;
+    text-align: center;
+}
+
+@media (max-width:510px) {
+    .logo-container {
+        flex-direction: column;
+    }
+    .header-logo{
+        margin-bottom: 15px;
+    }
+}
+
+.header-search {
+    display: block;
+    border: 1px solid #323232;
+    box-sizing: border-box;
+    height: 46px;
+    border-radius: 26px 26px 26px 26px;
+}
+
+.header-search input {
+    display:inline-block; /*для горизонтального позиціювання елемента*/
+    vertical-align: middle;
+    width: 220px;
+    height: 44px;
+    padding-left: 25px;
+    border:none;
+    box-sizing: border-box;
+    background:none;
+    font-family: 'Montserrat Light', sans-serif;
+    font-weight:400;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.header-search button {
+    width: 55px;
+    height: 44px;
+    display:inline-block; /*для горизонтального позиціювання елемента*/
+    vertical-align: top;
+    background: url("../images/icon-search.png") center center  no-repeat;
+    border: none;
+    float: right;
+    padding-left: 25px;
+}

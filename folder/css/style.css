@@ -1,3 +1,5 @@
+@import url(header.css);
+
 @import url(http://allfont.ru/allfont.css?fonts=montserrat-light);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
@@ -7,7 +9,7 @@
     padding: 0 15px;
     min-width: 320px;
     margin: 0  auto;
-    height: 150px;
+    height: 250px;
 }
 
 .montserrat{
@@ -22,11 +24,3 @@
     font-family: 'Montserrat Light', sans-serif;
 }
 
-header{
-    margin-bottom: 32px;
-}
-
-.page-header {
-    background-color: #232323;
-
-}
