@@ -2,8 +2,13 @@ header{
     margin-bottom: 32px;
 }
 
-.page-header {
+.top-background{
     background-color: #232323;
+    width: 100%;
+}
+
+.page-header {
+    background-color: #2b2b2b;
 }
 
 .header-top{
@@ -25,6 +30,9 @@ header{
     padding-right:17px;
     padding-bottom: 12px;
 }
+
+
+
 
 
 .register{
