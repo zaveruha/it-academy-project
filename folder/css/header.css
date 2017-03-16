@@ -83,10 +83,103 @@ header{
 .header-search button {
     width: 55px;
     height: 44px;
-    display:inline-block; /*для горизонтального позиціювання елемента*/
+    display:inline-block;
     vertical-align: top;
     background: url("../images/icon-search.png") center center  no-repeat;
     border: none;
     float: right;
     padding-left: 25px;
 }
+
+
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    padding-right: 14px;
+    padding-left: 19px;
+    padding-bottom: 15px;
+
+}
+
+.header-nav ul{
+    list-style: none;
+    margin-left: -10px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height:1.1;
+}
+
+.header-nav ul li{
+    display: inline-block;
+}
+
+.header-nav ul li+li{
+    margin-left: 24px;
+}
+
+
+.header-nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.header-nav a:hover, .header-nav .current a {
+    color: #be926f;
+}
+
+@media (max-width:710px) {
+    .header-nav ul li+li {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:645px) {
+    .header-nav ul li+li {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:590px) {
+    .header-nav ul li{
+        display: block;
+    }
+}
+
+@media (max-width:510px) {
+    .header-search input{
+        width: calc(100% - 55px);
+    }
+}
+
+
+.header-cart {
+    position: relative;
+    background: url("../images/icon-cart.png") center center no-repeat;
+    width: 17px;
+    height: 22px;
+    padding: 10px;
+    top: 22px;
+    left: -2px;
+}
+
+.cart-count {
+    color: #232323;
+    font-size: 12px;
+    background-color: #be926f;
+    text-decoration: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    position: relative;
+    top: -7px;
+    right: -7px;
+}
+
+
