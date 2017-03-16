@@ -22,5 +22,22 @@
     line-height: 26px;
     letter-spacing: 2px;
     text-decoration: none;
+}
 
+.banner-btn:hover {
+    background: #a76e41;
+}
+
+@media (max-width:510px) {
+    .banner-btn {
+        padding:3px 3px;
+    }
+
+    .banner-btn a {
+        color: white;
+        text-transform: uppercase;
+        font-size: 8px;
+        line-height: 20px;
+        letter-spacing: 1px ;
+    }
 }
