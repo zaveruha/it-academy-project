@@ -2,15 +2,18 @@ header{
     margin-bottom: 32px;
 }
 
-.page-header {
+.top-background {
     background-color: #232323;
 
+}
+
+.page-header {
+    background-color: #2b2b2b;
 }
 
 .header-top{
     display: flex;
     justify-content: space-between;
-    background-color: #2b2b2b;
     font-size: 14px;
     margin-bottom: 29px;
 }
