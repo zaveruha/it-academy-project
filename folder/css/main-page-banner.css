@@ -4,6 +4,8 @@
     background-size: 100%;
     padding-top: 40%;
     position: relative;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .banner-btn {
@@ -28,7 +30,7 @@
     background: #a76e41;
 }
 
-@media (max-width:510px) {
+@media (max-width: 725px) {
     .banner-btn {
         padding:3px 3px;
     }
