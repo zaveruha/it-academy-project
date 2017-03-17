@@ -1,0 +1,39 @@
+.prodacts-sale {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+}
+
+.prodacts-sale-info-1 {
+    border: 1px solid #e6e6e6;
+    width: 570px;
+    display: inline-flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.prodacts-sale-item {
+    height: 80px;
+    width: 240px;
+    display: flex;
+
+}
+.item-img {
+    border: 1px solid #ffe0cb;
+}
+
+.item-descr {
+    margin-left: 20px;
+}
+
+.prodacts-sale-info-2 {
+    border: 1px solid #e6e6e6;
+    width: 570px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.prodacts-sale-info-descr {
+    margin-left: 20px;
+}
