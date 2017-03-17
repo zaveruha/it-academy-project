@@ -6,19 +6,24 @@
 
 .prodacts-sale-info-1 {
     border: 1px solid #e6e6e6;
-    width: 570px;
     display: inline-flex;
-    justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 22px;
 }
 
-.prodacts-sale-item {
+.prodacts-sale-item-1  {
     height: 80px;
     width: 240px;
     display: flex;
-
+    margin-right: 22px;
 }
+
+.prodacts-sale-item-2  {
+    height: 80px;
+    width: 240px;
+    display: flex;
+    margin-left: 22px;
+}
+
 .item-img {
     border: 1px solid #ffe0cb;
 }
@@ -29,11 +34,42 @@
 
 .prodacts-sale-info-2 {
     border: 1px solid #e6e6e6;
-    width: 570px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .prodacts-sale-info-descr {
     margin-left: 20px;
+    margin-right: 330px;
 }
+
+
+
+@media (max-width: 1160px) {
+    .prodacts-sale {
+        flex-direction: column;
+    }
+
+    .prodacts-sale-info-1 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+
+    .prodacts-sale-info-descr  {
+        /*margin-left: 33.333333%;*/
+        /*margin-right: 33.333333%;*/
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 33.3333%;
+    }
+
+    .prodacts-sale-item-1  {
+        margin-left: 0;
+    }
+
+    .prodacts-sale-item-1  {
+        margin-right: 0;
+    }
+}
+
