@@ -1,0 +1,45 @@
+.main-page-banner {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 40%;
+    position: relative;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.banner-btn {
+    position: absolute;
+    top: 68%;
+    left: 3.418%;
+    background: #be926f;
+    padding: 7px 15px;
+
+}
+
+.banner-btn a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.banner-btn:hover {
+    background: #a76e41;
+}
+
+@media (max-width: 725px) {
+    .banner-btn {
+        padding:3px 3px;
+    }
+
+    .banner-btn a {
+        color: white;
+        text-transform: uppercase;
+        font-size: 8px;
+        line-height: 20px;
+        letter-spacing: 1px ;
+    }
+}
